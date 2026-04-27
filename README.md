@@ -1,4 +1,3 @@
-```md
 # Backlog Viewer Releases
 
 このリポジトリは Backlog Viewer の公開配布物を置くためのリポジトリです。
