@@ -1,0 +1,22 @@
+```md
+# Backlog Viewer Releases
+
+このリポジトリは Backlog Viewer の公開配布物を置くためのリポジトリです。
+
+アプリ本体のソースコードは private リポジトリで管理しています。この public リポジトリには、Tauri の自動アップデートに必要な Release assets だけを配置します。
+
+## 配布物
+
+各Releaseには以下が含まれます。
+
+- `latest.json`
+- Windows インストーラー `.exe`
+- Windows インストーラー `.msi`
+- updater 署名ファイル `.sig`
+
+## 自動アップデート
+
+Backlog Viewer は以下のURLを確認して更新を検出します。
+
+```txt
+https://github.com/yuto0623/BacklogViewer-releases/releases/latest/download/latest.json
